@@ -23,6 +23,8 @@ var Annotations = map[string]string{
 
 	"[sig-api-machinery] API data in etcd should be stored at the correct location and version for all resources [Serial]": " [Suite:openshift/conformance/serial]",
 
+	"[sig-api-machinery] API health endpoints should contain the required checks for the oauth-apiserver APIs": " [Suite:openshift/conformance/parallel]",
+
 	"[sig-api-machinery] API health endpoints should contain the required checks for the openshift-apiserver APIs": " [Suite:openshift/conformance/parallel]",
 
 	"[sig-api-machinery] APIServer CR fields validation additionalCORSAllowedOrigins [apigroup:config.openshift.io]": " [Suite:openshift/conformance/parallel]",
@@ -30,6 +32,8 @@ var Annotations = map[string]string{
 	"[sig-api-machinery] JSON Patch [apigroup:operator.openshift.io] should delete an entry from an array with a test precondition provided": " [Suite:openshift/conformance/parallel]",
 
 	"[sig-api-machinery] JSON Patch [apigroup:operator.openshift.io] should delete an entry from an array with multiple field owners": " [Suite:openshift/conformance/parallel]",
+
+	"[sig-api-machinery] JSON Patch [apigroup:operator.openshift.io] should delete multiple entries from an array when multiple test precondition provided": " [Suite:openshift/conformance/parallel]",
 
 	"[sig-api-machinery] JSON Patch [apigroup:operator.openshift.io] should error when the test precondition provided doesn't match": " [Suite:openshift/conformance/parallel]",
 
